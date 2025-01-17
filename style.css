@@ -12,7 +12,7 @@ body {
 }
 
 a:link {
-    color: rgb(40, 75, 40);
+    color: rgb(7, 243, 7);
 }
 
 a:visited {
@@ -97,7 +97,6 @@ h5 {
 
 .btn__text{ 
   font-size: 30px;
-  color: white;
   font-weight: bold;
   font-family: cursive, Arial, sans-serife; 
 
