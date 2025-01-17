@@ -1,0 +1,108 @@
+
+/* CSS Element Selectors */
+
+body {
+    background: rgb(164, 215, 166);
+    color: rgb(40, 75, 40);
+    border: rgb(40, 75, 40) solid 3px;
+    font-family: cursive, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 5px;
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(40, 75, 40);
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+/* CSS id Selectors */
+#img_1 {
+    vertical-align: top;
+    width: 60%;
+    border: rgba(40, 75, 40, 0.1) groove 2px;
+    border-radius: 10px;
+}
+#icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+#icons li {
+   margin: 10px;
+
+}
+
+  #icons img {
+    margin-right: 8px;
+}
+
+/* CSS class Selectors */
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgb(40, 75, 40);
+    color: rgb(249, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    gap: 20px;
+    
+}
+
+.fon_picture {
+    max-width: 50%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.btn{
+  border-radius:10px;
+  height:100px;
+  width:200px;
+  background-color:rgb(40, 75, 40);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+
+
+}
+
+.btn__text{ 
+  font-size: 30px;
+  color:rgb(239, 245, 239);
+  font-weight: bold;
+  font-family: cursive, Arial, sans-serife; 
+
+}
+.btn:hover {
+    background-color: rgba(34, 64, 34, 0.8);
+    cursor: pointer;
+}
